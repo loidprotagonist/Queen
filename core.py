@@ -1024,7 +1024,7 @@ class Blockchain:
             return False, "invalid coinbase amount"
 
         if height == 0:
-            reward = 420_000_000_000 * Queen
+            reward = INITIAL_REWARD
 
             if coinbase["outputs"][0]["amount"] != reward:
                 return False, "invalid genesis reward"
