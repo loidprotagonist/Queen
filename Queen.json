@@ -1,0 +1,26 @@
+[
+  {
+    "block": 0,
+    "timestamp": 1768284086,
+    "difficulty": 1,
+    "merkle_root": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLPB8CiwNv4sNbaisVdMFXMjMfx6Xjy1vP",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1768284086,
+        "message": "The Lever 13/Jan/2026 The Federal Reserve\u2019s $420 Billion Wall Street Bailout",
+        "txid": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8"
+      }
+    ],
+    "previous_chain": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 3743283,
+    "chain": "000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126"
+  }
+]
