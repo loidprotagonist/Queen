@@ -1,0 +1,122 @@
+[
+  {
+    "block": 0,
+    "timestamp": 1768284086,
+    "difficulty": 1,
+    "merkle_root": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLPB8CiwNv4sNbaisVdMFXMjMfx6Xjy1vP",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1768284086,
+        "message": "The Lever 13/Jan/2026 The Federal Reserve\u2019s $420 Billion Wall Street Bailout",
+        "txid": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8"
+      }
+    ],
+    "previous_chain": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 3743283,
+    "chain": "000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126"
+  },
+  {
+    "block": 1,
+    "timestamp": 1788131220,
+    "difficulty": 1,
+    "merkle_root": "ef5e496ebb478ba804cdd40f30cfddc3cc9033812ebf190f0f565e22695dd375",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN3J6JR3cKUpo7r6oeEnjqxJRDps6ZPGmWg",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1788131220,
+        "message": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+        "txid": "ef5e496ebb478ba804cdd40f30cfddc3cc9033812ebf190f0f565e22695dd375"
+      }
+    ],
+    "previous_chain": "000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126",
+    "nonce": 231410,
+    "chain": "000006a5227411ce143ba204957bbe0036bd55584e8fa35d571f14dd16b901a1"
+  },
+  {
+    "block": 2,
+    "timestamp": 1788131485,
+    "difficulty": 1,
+    "merkle_root": "bc931a260bd2cdd12168ed798efc6d3091d0ddf70c34ed2658c6cc493e154cf4",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLoSkDcZp19eHhag8hEpgAEda1F5oHGq4c",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1788131485,
+        "message": "BLOCK REWARD",
+        "txid": "bc931a260bd2cdd12168ed798efc6d3091d0ddf70c34ed2658c6cc493e154cf4"
+      }
+    ],
+    "previous_chain": "000006a5227411ce143ba204957bbe0036bd55584e8fa35d571f14dd16b901a1",
+    "nonce": 3843560,
+    "chain": "000007cd190912d142bee4fd2a88a73c8416e77b70f6392e8102f8516df3ed52"
+  },
+  {
+    "block": 3,
+    "timestamp": 1788138782,
+    "difficulty": 1,
+    "merkle_root": "2ae434095e4dd9ec58c390518d2fb9b475a87541f2717fdef933763ec46fee7a",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENAcqqr9poBFKtee5iaqrR724F4VACLYNJ9",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1788138782,
+        "message": "BLOCK REWARD",
+        "txid": "2ae434095e4dd9ec58c390518d2fb9b475a87541f2717fdef933763ec46fee7a"
+      }
+    ],
+    "previous_chain": "000007cd190912d142bee4fd2a88a73c8416e77b70f6392e8102f8516df3ed52",
+    "nonce": 1247488,
+    "chain": "000004be8b55b4befb3cd77d8aaaf91d1505eb6be5df1b36774962bc8facb394"
+  },
+  {
+    "block": 4,
+    "timestamp": 1788140014,
+    "difficulty": 1,
+    "merkle_root": "353ff6599816ae71ae8b703d370aafcc33b545699fff28742563dd62ac872f85",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENPsbhFWYciYJssCxuHLXKaXnaR5zR3qELr",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1788140014,
+        "message": "BLOCK REWARD",
+        "txid": "353ff6599816ae71ae8b703d370aafcc33b545699fff28742563dd62ac872f85"
+      }
+    ],
+    "previous_chain": "000004be8b55b4befb3cd77d8aaaf91d1505eb6be5df1b36774962bc8facb394",
+    "nonce": 3498989,
+    "chain": "0000041f55e906a68bf622a805e79b3a65b78d8a41dc2223ecf886139705bb4d"
+  }
+]
