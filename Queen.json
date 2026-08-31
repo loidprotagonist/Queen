@@ -1,0 +1,50 @@
+[
+  {
+    "block": 0,
+    "timestamp": 1768284086,
+    "difficulty": 1,
+    "merkle_root": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLPB8CiwNv4sNbaisVdMFXMjMfx6Xjy1vP",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1768284086,
+        "message": "The Lever 13/Jan/2026 The Federal Reserve\u2019s $420 Billion Wall Street Bailout",
+        "txid": "5269f545513fd5bf7fa3f03a4f717a2e723ec62c85e1da8654d9f8059277c3b8"
+      }
+    ],
+    "previous_chain": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 3743283,
+    "chain": "000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126"
+  },
+  {
+    "block": 1,
+    "timestamp": 1788216980,
+    "difficulty": 1,
+    "merkle_root": "b5027c1804d58e0a0fc7ac6e3ce5d1d8fd3905208af5ea1ce08f75cfbcf4341b",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN3J6JR3cKUpo7r6oeEnjqxJRDps6ZPGmWg",
+            "amount": 5000000000
+          }
+        ],
+        "timestamp": 1788216980,
+        "message": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+        "txid": "b5027c1804d58e0a0fc7ac6e3ce5d1d8fd3905208af5ea1ce08f75cfbcf4341b"
+      }
+    ],
+    "previous_chain": "000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126",
+    "nonce": 1765041,
+    "chain": "0000034ca6f33d4697c0787adac9c9020dce7fa170db80c97c11830b68434807"
+  }
+]
