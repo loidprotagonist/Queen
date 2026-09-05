@@ -1,4 +1,8 @@
-Queen Electronic Cash System
+<p align="center">
+  <img src="queen-logo.png" width="180">
+</p>
+
+# Queen Electronic Cash System
 
 Queen is an experimental peer-to-peer electronic cash system written in Python.
 
