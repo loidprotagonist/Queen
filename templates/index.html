@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Queen Explorer</title>
+
+<style>
+
+body{
+    background:#000;
+    color:white;
+    font-family:Consolas,monospace;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.rgb{
+    padding:2px;
+    border-radius:16px;
+    margin-top:14px;
+
+    background:#050505;
+    background-size:400%;
+    border:1.5px solid #00ff99;
+    box-shadow:0 0 2px #00ff99;
+    animation:rgb 2s linear infinite;
+}
+
+.rgb > div{
+    background:#050505;
+    border-radius:14px;
+    padding:14px;
+}
+
+@keyframes rgb{
+    0%{
+        background-position:0%;
+    }
+
+    100%{
+        background-position:400%;
+    }
+}
+
+/* HASH */
+
+.hash{
+    font-size:12px;
+    color:gold;
+    word-break:break-all;
+    margin-top:4px;
+    line-height:1.5;
+}
+
+/* MESSAGE */
+
+.message-box{
+    background:#000;
+    border:1.5px solid #00ff99;
+    border-left:3px solid #00ff99;
+    border-radius:10px;
+    padding:10px;
+    margin-top:8px;
+
+    white-space:pre-wrap;
+    word-break:break-word;
+
+    color:#ddd;
+
+    font-size:12px;
+    line-height:1.6;
+
+    font-family:Consolas,monospace;
+
+    max-height:250px;
+    overflow:auto;
+}
+
+/* TRANSACTION */
+
+.tx-send{
+    border-left:1.5px solid #00ff99 !important;
+    background:#120000;
+    border:1.5px solid #00ff99;
+}
+
+.tx-receive{
+    border-left:1.5px solid #00ff99 !important;
+    background:#00150d;
+    border:1.5px solid #00ff99;
+}
+
+.tx-mining{
+    border-left:1.5px solid #00ff99 !important;
+    background:#1a1400;
+    border:1.5px solid #00ff99;
+}
+
+.tx{
+    padding:12px;
+    border-radius:10px;
+    margin-top:14px;
+}
+
+.tx-title{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.tx-label{
+    color:#00ff99;
+    margin-top:8px;
+    font-size:12px;
+}
+
+/* AMOUNT */
+
+.amount{
+    display:flex;
+    align-items:center;
+    gap:6px;
+
+    margin-top:5px;
+
+    color:gold;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* BLOCK */
+
+.block{
+    background:#000;
+    border:1.5px solid #00ff99;
+    border-radius:10px;
+
+    padding:12px;
+    margin-top:10px;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.block:hover{
+    transform:scale(1.01);
+    border-color:gold;
+    box-shadow:0 0 10px gold;
+}
+
+/* BALANCE */
+
+.balance-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin-top:10px;
+
+    background:#000;
+    border:1.5px solid #00ff99;
+
+    border-radius:10px;
+
+    padding:12px;
+}
+
+.balance-value{
+    font-size:22px;
+    color:gold;
+    font-weight:bold;
+
+    text-shadow:0 0 10px gold;
+}
+
+/* SEARCH */
+
+.search-panel{
+    padding:18px;
+
+    border-radius:18px;
+
+    background:
+    linear-gradient(
+        145deg,
+        #050505,
+        #0d0d0d
+    );
+
+    box-shadow:
+    0 0 20px rgba(0,255,200,0.15);
+
+    border:1px solid rgba(0,255,200,0.25);
+}
+
+.search-title{
+    font-size:14px;
+    color:gold;
+
+    margin-bottom:12px;
+
+    letter-spacing:2px;
+
+    font-family:monospace;
+
+    text-shadow:
+    0 0 10px gold;
+}
+
+.search-box{
+    display:flex;
+    gap:10px;
+}
+
+.search-box input{
+    flex:1;
+
+    padding:14px;
+
+    border-radius:14px;
+
+    border:1.5px solid #333;
+
+    background:#000;
+
+    color:gold;
+
+    font-size:15px;
+
+    font-family:monospace;
+
+    outline:none;
+
+    transition:0.2s;
+}
+
+.search-box input:focus{
+    border-color:gold;
+
+    box-shadow:
+    0 0 15px rgba(255,165,0,0.5);
+}
+
+.search-box button{
+    min-width:70px;
+
+    font-size:22px;
+
+    background:#00ff99;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    color:black;
+}
+
+.search-box button:hover{
+    transform:scale(1.03);
+
+    box-shadow:
+    0 0 25px rgba(255,165,0,0.7);
+}
+
+.search-box button:active{
+    transform:scale(0.97);
+}
+
+/* LOGO */
+
+.logo{
+    text-align:center;
+
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+.logo h1{
+    margin-top:0;
+
+    line-height:0.9;
+
+    font-size:56px;
+
+    letter-spacing:4px;
+
+    font-weight:bold;
+
+    font-family:monospace;
+
+    color:gold;
+
+    text-shadow:
+    0 0 10px gold,
+    0 0 25px gold,
+    0 0 50px rgba(255,140,0,0.7);
+}
+
+/* INFO */
+
+.info-line{
+    margin-top:8px;
+    padding:5px 0;
+}
+
+.small{
+    color:#aaa;
+    font-size:11px;
+    margin-top:6px;
+}
+
+.status{
+    color:#00ff99;
+    font-weight:bold;
+}
+
+.error{
+    color:red;
+    font-weight:bold;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    body{
+        padding:10px;
+    }
+
+    .logo h1{
+        font-size:38px;
+    }
+
+    .search-box{
+        flex-direction:row;
+    }
+
+    .search-box button{
+        min-width:60px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+<!-- LOGO -->
+
+<div class="logo">
+
+<h1>QUEEN</h1>
+
+<div class="small">
+BLOCKCHAIN EXPLORER
+</div>
+
+</div>
+
+
+<!-- SEARCH -->
+
+<div class="rgb">
+
+<div class="search-panel">
+
+<div class="search-title">
+SEARCH QUEEN BLOCKCHAIN
+</div>
+
+<div class="search-box">
+
+<input
+id="search"
+placeholder="Address / Block Number"
+/>
+
+<button onclick="goSearch()">
+🔍
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- NETWORK -->
+
+<div class="rgb">
+
+<div>
+
+<h3>Queen Network</h3>
+
+<div id="network">
+Loading...
+</div>
+
+</div>
+
+</div>
+
+
+<!-- BLOCK LIST -->
+
+<div class="rgb">
+
+<div>
+
+<h3>Latest Blocks</h3>
+
+<div id="blocks">
+Loading...
+</div>
+
+</div>
+
+</div>
+
+
+<!-- DETAIL -->
+
+<div class="rgb">
+
+<div>
+
+<h3>Detail</h3>
+
+<div id="detail">
+Select Block or Address
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+/* =========================
+API
+========================= */
+
+const API = location.origin
+
+const networkBox =
+document.getElementById("network")
+
+const blocksBox =
+document.getElementById("blocks")
+
+const detailBox =
+document.getElementById("detail")
+
+
+/* =========================
+QUEEN UNIT
+========================= */
+
+function queen(v){
+
+    return Number(
+        Number(v || 0) / 100000000
+    ).toFixed(8)
+
+}
+
+
+/* =========================
+ESCAPE HTML
+========================= */
+
+function escapeHtml(value){
+
+    return String(value ?? "")
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;")
+
+}
+
+
+/* =========================
+LOAD NETWORK
+========================= */
+
+async function loadNetwork(){
+
+    try{
+
+        const r =
+            await fetch(API + "/info")
+
+        if(!r.ok)
+            throw new Error("HTTP " + r.status)
+
+        const d =
+            await r.json()
+
+        networkBox.innerHTML = `
+
+        <div class="info-line">
+        Status:
+        <span class="status">
+        ONLINE
+        </span>
+        </div>
+
+        <div class="info-line">
+        Height:
+        <b>${escapeHtml(d.height)}</b>
+        </div>
+
+        <div class="info-line">
+        Difficulty:
+        <b>${escapeHtml(d.difficulty)}</b>
+        </div>
+
+        <div class="info-line">
+        Block Reward:
+        <b>${queen(d.reward)} QUEEN</b>
+        </div>
+
+        <div class="info-line">
+        Mempool:
+        <b>${escapeHtml(d.mempool)}</b>
+        </div>
+
+        <div class="info-line">
+        Supply:
+        <b>${queen(d.supply)} QUEEN</b>
+        </div>
+
+        <div class="info-line">
+        Max Supply:
+        <b>${queen(d.max_supply)} QUEEN</b>
+        </div>
+
+        `
+
+    }
+
+    catch(e){
+
+        networkBox.innerHTML = `
+        <div class="error">
+        ❌ NODE OFFLINE
+        </div>
+
+        <div class="small">
+        ${escapeHtml(e.message)}
+        </div>
+        `
+
+    }
+
+}
+
+
+/* =========================
+LOAD BLOCKS
+========================= */
+
+async function loadBlocks(){
+
+    try{
+
+        const r =
+            await fetch(API + "/chain")
+
+        if(!r.ok)
+            throw new Error("HTTP " + r.status)
+
+        const d =
+            await r.json()
+
+        const chain =
+            Array.isArray(d.chain)
+            ? d.chain
+            : []
+
+        if(chain.length === 0){
+
+            blocksBox.innerHTML =
+            "NO BLOCKS"
+
+            return
+
+        }
+
+        let html = ""
+
+        chain
+        .map((block,index)=>({
+            block,
+            index
+        }))
+        .slice(-10)
+        .reverse()
+        .forEach(item=>{
+
+            const b =
+                item.block
+
+            const height =
+                item.index
+
+            const txCount =
+                Array.isArray(b.transactions)
+                ? b.transactions.length
+                : 0
+
+            const blockHash =
+                b.hash ??
+                b.chain ??
+                "-"
+
+            html += `
+
+            <div
+                class="block"
+                onclick="viewBlock(${height})"
+            >
+
+                <b>
+                ⛏ Block #${height}
+                </b>
+
+                <div class="hash">
+                ${escapeHtml(blockHash)}
+                </div>
+
+                <div class="small">
+                ${txCount} TX
+                </div>
+
+            </div>
+
+            `
+
+        })
+
+        blocksBox.innerHTML =
+            html
+
+    }
+
+    catch(e){
+
+        blocksBox.innerHTML = `
+        <div class="error">
+        ❌ FAILED TO LOAD BLOCKS
+        </div>
+        `
+
+    }
+
+}
+
+
+/* =========================
+VIEW BLOCK
+========================= */
+
+async function viewBlock(index){
+
+    detailBox.innerHTML =
+        "Loading block..."
+
+    try{
+
+        const r =
+            await fetch(API + "/chain")
+
+        if(!r.ok)
+            throw new Error("HTTP " + r.status)
+
+        const d =
+            await r.json()
+
+        const chain =
+            Array.isArray(d.chain)
+            ? d.chain
+            : []
+
+        const b =
+            chain[index]
+
+        if(!b){
+
+            detailBox.innerHTML =
+                "❌ BLOCK NOT FOUND"
+
+            return
+
+        }
+
+        const transactions =
+            Array.isArray(b.transactions)
+            ? b.transactions
+            : []
+
+        const blockHash =
+            b.hash ??
+            b.chain ??
+            "-"
+
+        const previous =
+            b.previous_hash ??
+            b.previous_chain ??
+            "-"
+
+        let html = `
+
+        <h3>
+        ⛏ BLOCK #${index}
+        </h3>
+
+        <div class="tx-label">
+        HASH
+        </div>
+
+        <div class="hash">
+        ${escapeHtml(blockHash)}
+        </div>
+
+        <div class="tx-label">
+        PREVIOUS
+        </div>
+
+        <div class="hash">
+        ${escapeHtml(previous)}
+        </div>
+
+        `
+
+        if(b.timestamp !== undefined){
+
+            html += `
+
+            <div class="tx-label">
+            TIME
+            </div>
+
+            <div class="small">
+            ${new Date(
+                Number(b.timestamp) * 1000
+            ).toLocaleString()}
+            </div>
+
+            `
+
+        }
+
+
+        html += `
+
+        <div class="tx-label">
+        TRANSACTIONS (${transactions.length})
+        </div>
+
+        `
+
+
+        transactions.forEach(tx=>{
+
+            if(!tx || typeof tx !== "object")
+                return
+
+            const inputs =
+                Array.isArray(tx.inputs)
+                ? tx.inputs
+                : []
+
+            const outputs =
+                Array.isArray(tx.outputs)
+                ? tx.outputs
+                : []
+
+            const output =
+                outputs[0] || {}
+
+            const mining =
+                inputs.length === 0
+
+            html += `
+
+            <div class="tx ${
+                mining
+                ? "tx-mining"
+                : "tx-receive"
+            }">
+
+                <div class="tx-title">
+
+                ${
+                    mining
+                    ? "⛏ MINING"
+                    : "💸 TRANSACTION"
+                }
+
+                </div>
+
+
+                <div class="tx-label">
+                TXID
+                </div>
+
+                <div class="hash">
+                ${escapeHtml(tx.txid || "-")}
+                </div>
+
+
+                <div class="tx-label">
+                INPUTS
+                </div>
+
+                <div class="json">
+                ${escapeHtml(
+                    JSON.stringify(
+                        inputs,
+                        null,
+                        2
+                    )
+                )}
+                </div>
+
+
+                <div class="tx-label">
+                OUTPUTS
+                </div>
+
+                <div class="hash">
+                ${escapeHtml(
+                    output.address || "-"
+                )}
+                </div>
+
+
+                <div class="tx-label">
+                AMOUNT
+                </div>
+
+                <div class="amount">
+                ${queen(output.amount)} QUEEN
+                </div>
+
+
+                <div class="tx-label">
+                FEE
+                </div>
+
+                <div class="small">
+                ${queen(tx.fee)} QUEEN
+                </div>
+
+
+                <div class="tx-label">
+                 MESSAGE
+                </div>
+
+                <div class="message-box">
+                ${escapeHtml(
+                    tx.message || "-"
+                )}
+                </div>
+
+            </div>
+
+            `
+
+        })
+
+
+        html += `
+
+        `
+
+
+        detailBox.innerHTML =
+            html
+
+    }
+
+    catch(e){
+
+        detailBox.innerHTML = `
+
+        <div class="error">
+        ❌ FAILED TO LOAD BLOCK
+        </div>
+
+        <div class="small">
+        ${escapeHtml(e.message)}
+        </div>
+
+        `
+
+    }
+
+}
+
+
+/* =========================
+VIEW ADDRESS
+========================= */
+
+async function viewAddress(addr){
+
+    detailBox.innerHTML =
+        "Loading address..."
+
+    try{
+
+        const encoded =
+            encodeURIComponent(addr)
+
+
+        const balRes =
+            await fetch(
+                API +
+                "/balance/" +
+                encoded
+            )
+
+        const balData =
+            await balRes.json()
+
+
+        const utxoRes =
+            await fetch(
+                API +
+                "/utxo/" +
+                encoded
+            )
+
+        const utxoData =
+            await utxoRes.json()
+
+
+        const utxos =
+            Array.isArray(utxoData.utxos)
+            ? utxoData.utxos
+            : []
+
+
+        let html = `
+
+        <h3>
+        ADDRESS
+        </h3>
+
+        <div class="hash">
+        ${escapeHtml(addr)}
+        </div>
+
+
+        <div class="balance-box">
+
+            <div>
+
+                <div class="small">
+                BALANCE
+                </div>
+
+                <div class="balance-value">
+                ${queen(
+                    balData.balance
+                )} QUEEN
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h3>
+        UTXO (${utxos.length})
+        </h3>
+
+        `
+
+
+        if(utxos.length === 0){
+
+            html += `
+
+            <div class="small">
+            NO UTXO
+            </div>
+
+            `
+
+        }
+
+        else{
+
+            utxos.forEach((u,index)=>{
+
+                html += `
+
+                <div class="tx tx-receive">
+
+                    <div class="tx-title">
+                    UTXO #${index}
+                    </div>
+
+                    <div class="tx-label">
+                    TXID
+                    </div>
+
+                    <div class="hash">
+                    ${escapeHtml(
+                        u.txid || "-"
+                    )}
+                    </div>
+
+                    <div class="tx-label">
+                    VOUT
+                    </div>
+
+                    <div class="small">
+                    ${escapeHtml(
+                        u.vout ?? "-"
+                    )}
+                    </div>
+
+                    <div class="tx-label">
+                    AMOUNT
+                    </div>
+
+                    <div class="amount">
+                    ${queen(u.amount)}
+                    QUEEN
+                    </div>
+
+                </div>
+
+                `
+
+            })
+
+        }
+
+
+        detailBox.innerHTML =
+            html
+
+    }
+
+    catch(e){
+
+        detailBox.innerHTML = `
+
+        <div class="error">
+        ❌ ADDRESS ERROR
+        </div>
+
+        <div class="small">
+        ${escapeHtml(e.message)}
+        </div>
+
+        `
+
+    }
+
+}
+
+
+/* =========================
+SEARCH
+========================= */
+
+async function goSearch(){
+
+    const input =
+        document.getElementById(
+            "search"
+        )
+
+    const value =
+        input.value.trim()
+
+    if(!value)
+        return
+
+
+    /*
+
+    */
+
+    if(/^\d+$/.test(value)){
+
+        const index =
+            Number(value)
+
+        viewBlock(index)
+
+        return
+
+    }
+
+
+    viewAddress(value)
+
+}
+
+
+/* =========================
+ENTER SEARCH
+========================= */
+
+document
+.getElementById("search")
+.addEventListener(
+    "keydown",
+    function(event){
+
+        if(event.key === "Enter"){
+
+            goSearch()
+
+        }
+
+    }
+)
+
+
+/* =========================
+AUTO REFRESH
+========================= */
+
+loadNetwork()
+
+loadBlocks()
+
+
+setInterval(
+    loadNetwork,
+    10000
+)
+
+setInterval(
+    loadBlocks,
+    10000
+)
+
+</script>
+
+</body>
+</html>
