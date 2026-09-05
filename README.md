@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Queen-logo.png" width="180">
+  <img src="logo.png" width="180">
 </p>
 
 # Queen Electronic Cash System
