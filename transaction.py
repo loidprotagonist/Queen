@@ -483,11 +483,10 @@ def main():
     p(C.Y, f"Amount     : {amount / Queen:.8f} QUIN")
     p(C.Y, f"Fee        : {FEE / Queen:.8f} QUIN")
     p(C.K, f"Total      : {needed / Queen:.8f} QUIN")
-    p(C.K, f"Timestamp  : {int(time.time())}")
 
     if msg.strip():
 
-        p(C.K, f"Message    : {msg}")
+        p(C.K, f"Message    : {msg}") 
 
     else:
 
@@ -537,8 +536,7 @@ def main():
             if o["address"] == ADDRESS
         )
 
-        p(C.K, f"Change     : {change / Queen:.8f} QUIN")
-        p(C.K, f"Timestamp  : {int(time.time())}")
+        p(C.K, f"Change    : {change / Queen:.8f} QUIN")
         print()
 
     else:
