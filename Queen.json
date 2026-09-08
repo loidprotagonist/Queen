@@ -1,0 +1,243 @@
+[
+  {
+    "block": 0,
+    "timestamp": 1768284086,
+    "difficulty": 1,
+    "merkle_root": "81550034e8fc302aa99ec7cea3e0dcb9de0cb002750e8f020ff29b64c82fdd2b",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLPB8CiwNv4sNbaisVdMFXMjMfx6Xjy1vP",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1768284086,
+        "message": "The Lever 13/Jan/2026 The Federal Reserve\u2019s $420 Billion Wall Street Bailout",
+        "txid": "81550034e8fc302aa99ec7cea3e0dcb9de0cb002750e8f020ff29b64c82fdd2b"
+      }
+    ],
+    "previous_chain": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 1870025,
+    "chain": "000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d"
+  },
+  {
+    "block": 1,
+    "timestamp": 1788797118,
+    "difficulty": 1,
+    "merkle_root": "39e1d380a1fea41d1f334eafae1b8e275e8ac2a7b40f5229c48926e7d2f05b02",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENFuUi81Nf1JqiLrcxdSQQYRohzTBYngeck",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788797118,
+        "message": "LOID PROTAGONIST",
+        "txid": "39e1d380a1fea41d1f334eafae1b8e275e8ac2a7b40f5229c48926e7d2f05b02"
+      }
+    ],
+    "previous_chain": "000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d",
+    "nonce": 2347024,
+    "chain": "00000594be8673f69a337430fd156b071e8e2cdbb0e09887157f162d8b1cc056"
+  },
+  {
+    "block": 2,
+    "timestamp": 1788825868,
+    "difficulty": 1,
+    "merkle_root": "15a1e7eb99c00933be74884e800368ba0f4804778cd15670f1ec2ce18db0660f",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN3J6JR3cKUpo7r6oeEnjqxJRDps6ZPGmWg",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788825868,
+        "message": "MINING REWARD",
+        "txid": "15a1e7eb99c00933be74884e800368ba0f4804778cd15670f1ec2ce18db0660f"
+      }
+    ],
+    "previous_chain": "00000594be8673f69a337430fd156b071e8e2cdbb0e09887157f162d8b1cc056",
+    "nonce": 2591196,
+    "chain": "000003b10f35046886cfd1d5ba7f7e6c368bcdc98e3fce809be15b4d81fab09e"
+  },
+  {
+    "block": 3,
+    "timestamp": 1788827790,
+    "difficulty": 1,
+    "merkle_root": "f934120ebdc5fd9b4c0714466f24c00fc3015e3452ea87f6dfec37fbc20dc4f4",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENM88ZyFefpAyvz4BfqK3Z6eGS7gUsmxB77",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788827790,
+        "message": "MINING REWARD",
+        "txid": "f934120ebdc5fd9b4c0714466f24c00fc3015e3452ea87f6dfec37fbc20dc4f4"
+      }
+    ],
+    "previous_chain": "000003b10f35046886cfd1d5ba7f7e6c368bcdc98e3fce809be15b4d81fab09e",
+    "nonce": 870801,
+    "chain": "00000707d2a6351f4c5986e658f29e88060962b79d9205c30dff24580d1203e4"
+  },
+  {
+    "block": 4,
+    "timestamp": 1788829869,
+    "difficulty": 1,
+    "merkle_root": "8469c55173ab6fa152d2df8d8ef75feb7c444eadc4f6223951ef24dfb6b77b02",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN9LgCF87qQQV6WKtv4hSw3vWZvmmC8zW3F",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788829869,
+        "message": "MINING REWARD",
+        "txid": "8469c55173ab6fa152d2df8d8ef75feb7c444eadc4f6223951ef24dfb6b77b02"
+      }
+    ],
+    "previous_chain": "00000707d2a6351f4c5986e658f29e88060962b79d9205c30dff24580d1203e4",
+    "nonce": 3066421,
+    "chain": "000005504e30ff7743abc131d5f2b574fe77554b0d5ec81235ddad336d96c279"
+  },
+  {
+    "block": 5,
+    "timestamp": 1788831577,
+    "difficulty": 1,
+    "merkle_root": "de92cf551a86cc5525cb48b0ce9a844a8d24746ec74cb5946a883428a5243e9a",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEENLoSkDcZp19eHhag8hEpgAEda1F5oHGq4c",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788831577,
+        "message": "MINING REWARD",
+        "txid": "de92cf551a86cc5525cb48b0ce9a844a8d24746ec74cb5946a883428a5243e9a"
+      }
+    ],
+    "previous_chain": "000005504e30ff7743abc131d5f2b574fe77554b0d5ec81235ddad336d96c279",
+    "nonce": 356572,
+    "chain": "0000018d191994fa22c1571b686cadf7be05188510ca50085e356175f369473a"
+  },
+  {
+    "block": 6,
+    "timestamp": 1788843657,
+    "difficulty": 1,
+    "merkle_root": "2e315265ca972c29052a1d5d0c02341675f9b38b2c36717c5adb22f1756f5610",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN19iCNCRzSDHn9Q6jhViFAKEgr5nzj3Lh",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788843657,
+        "message": "MINING REWARD",
+        "txid": "c40b15e23b05f458ab4383a94d1905ba0dea1ffa2d94304c23a82b66850db750"
+      },
+      {
+        "fee": 1000,
+        "inputs": [
+          {
+            "public_key": "be40ac6d4c2a9d75a129f6f258d9671c86d21123dd4de7cbac2b7fda5c86bc4e6fe4c060e5e18f9769c421f38456d7f59e4aa8f7097605663f9c64a26710e72e",
+            "signature": "3045022100e3e29bfd95d6760db629809be2a345bdc688c2915317140d241a7ea1fa0f9a37022013dc4987b9151069ca782820d19265dfaf77f2393e895f533e57e411a57c55c7",
+            "txid": "f934120ebdc5fd9b4c0714466f24c00fc3015e3452ea87f6dfec37fbc20dc4f4",
+            "vout": 0
+          }
+        ],
+        "message": "HELLO, LOID PROTAGONIST",
+        "outputs": [
+          {
+            "address": "QUEENLPB8CiwNv4sNbaisVdMFXMjMfx6Xjy1vP",
+            "amount": 10000000
+          },
+          {
+            "address": "QUEENM88ZyFefpAyvz4BfqK3Z6eGS7gUsmxB77",
+            "amount": 89999000
+          }
+        ],
+        "timestamp": 1788843610,
+        "txid": "fbe2d60550940d08beac817f25c1b08f4f77aab5d2c8c582798bfb25a40e9625",
+        "version": 2
+      }
+    ],
+    "previous_chain": "0000018d191994fa22c1571b686cadf7be05188510ca50085e356175f369473a",
+    "nonce": 1845013,
+    "chain": "0000077a91945020ab44c9a23a326d11e21e41e775f3fc15c182abd2935d91ed"
+  },
+  {
+    "block": 7,
+    "timestamp": 1788856522,
+    "difficulty": 1,
+    "merkle_root": "1ed729ae92c7ef1fcc741b76c0f43bea03f7593be43783c6030c41833a409d4d",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN3LaRNFv6Qh4yo3Te5afV67PYX1ScbE1iH",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788856522,
+        "message": "MINING REWARD",
+        "txid": "1ed729ae92c7ef1fcc741b76c0f43bea03f7593be43783c6030c41833a409d4d"
+      }
+    ],
+    "previous_chain": "0000077a91945020ab44c9a23a326d11e21e41e775f3fc15c182abd2935d91ed",
+    "nonce": 262588,
+    "chain": "00000280c05a958a89a5367df84551fc340609ebce2510e661bda0762f9fda9b"
+  },
+  {
+    "block": 8,
+    "timestamp": 1788856701,
+    "difficulty": 1,
+    "merkle_root": "4ef5a17c46740348922df849a9a831bbb7d26e437430976d257a97aa2a3e27a7",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "QUEEN9f8azkTbHTH3jnpTAdbN8weSkXrd7iFmN",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1788856701,
+        "message": "MINING REWARD",
+        "txid": "4ef5a17c46740348922df849a9a831bbb7d26e437430976d257a97aa2a3e27a7"
+      }
+    ],
+    "previous_chain": "00000280c05a958a89a5367df84551fc340609ebce2510e661bda0762f9fda9b",
+    "nonce": 2830913,
+    "chain": "0000017bdb9a3c79d28058f022dcd76b347c146116c0ed45ff93e1e2d3c8cc67"
+  }
+]
