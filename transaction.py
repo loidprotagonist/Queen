@@ -510,9 +510,9 @@ def main():
     time.sleep(0.6)
     tx = build(to, amount, msg)
     print()
-    print(f"Broadcasting")
+    print(f"Broadcasting....")
     time.sleep(0.5)
-    print(f"Waiting Node")
+    print(f"Waiting Node....")
     time.sleep(0.5)
     print()
 
@@ -536,7 +536,7 @@ def main():
             if o["address"] == ADDRESS
         )
 
-        p(C.K, f"Change    : {change / Queen:.8f} QUIN")
+        p(C.K, f"Change   : {change / Queen:.8f} QUIN")
         print()
 
     else:
