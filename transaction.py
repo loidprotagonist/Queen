@@ -300,7 +300,7 @@ def build(to, amount, msg):
     tx["txid"] = compute_txid(tx)
     banner("TRANSACTION ID")
     print()
-    p(C.K, "TXID : {tx['txid']}")
+    p(C.K, f"TXID : {tx['txid']}")
 
     return tx
 
