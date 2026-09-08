@@ -146,7 +146,7 @@ def build_block(miner):
             }
         ],
         "timestamp": int(time.time()),
-        "message": "BLOCK REWARD"
+        "message": "MINING REWARD"
     }
 
     coinbase["txid"] = blockchain.compute_txid(coinbase)
@@ -323,7 +323,7 @@ def mine_once(miner):
     p(C.K, f"Nonce        : {nonce}")
     p(C.W, f"Miner        : {miner}")
     p(C.K, f"Mining Time  : {total_time:.2f} Seconds")
-    p(C.Y, f"Block Reward : {reward / Queen:.8f} QUIN")
+    p(C.Y, f"Mining Reward : {reward / Queen:.8f} QUIN")
     fee = 0
 
     for tx in block["transactions"]:
