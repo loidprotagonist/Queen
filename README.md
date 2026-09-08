@@ -137,19 +137,19 @@ python3 -m pip install -r requirements.txt
 
 Run the node:
 
-python3 node.py
+python3 Loid_node.py
 
 In another terminal, run the miner:
 
-python3 mining.py
+python3 Loid_miner.py
 
 Run the verifier:
 
-python3 verify.py
+python3 Loid_verify.py
 
 Run the wallet:
 
-python3 wallet.py
+python3 Loid_wallet.py
 
 ---
 
@@ -171,19 +171,19 @@ pip install -r requirements.txt
 
 Run the node:
 
-python node.py
+python Loid_node.py
 
 Run the miner:
 
-python mining.py
+python Loid_miner.py
 
 Run the verifier:
 
-python verify.py
+python Loid_verify.py
 
 Run the wallet:
 
-python wallet.py
+python Loid_wallet.py
 
 CPU mining performance on Android devices will vary significantly between devices.
 
@@ -204,10 +204,10 @@ python -m pip install -r requirements.txt
 
 Then run the desired component:
 
-python node.py
-python mining.py
-python verify.py
-python wallet.py
+python Loid_node.py
+python Loid_miner.py
+python Loid_verify.py
+python Loid_wallet.py
 
 The exact command may differ depending on the operating system.
 
@@ -217,7 +217,7 @@ Mining
 
 Start the miner:
 
-python mining.py
+python Loid_miner.py
 
 The miner displays information such as:
 
@@ -242,28 +242,28 @@ Project Structure
 
 The project is organized around the following components:
 
-core.py
+Loid_core.py
     Core blockchain functions
 
-consensus.py
+Loid_consensus.py
     Consensus and validation rules
 
-node.py
+Loid_node.py
     Blockchain node and network interface
 
-mining.py
+Loid_miner.py
     CPU Proof-of-Work miner
 
-transaction.py
+Loid_transaction.py
     Transaction handling
 
-wallet.py
+Loid_wallet.py
     Wallet and address handling
 
-verify.py
+Loid_verify.py
     Blockchain verification
 
-ui.py
+Loid_ui.py
     Terminal interface
 
 Additional testing and utility scripts are included in the repository.
