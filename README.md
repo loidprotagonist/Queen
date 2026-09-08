@@ -61,8 +61,8 @@ Example:
 
 Block        : 0
 Difficulty   : 1
-Nonce        : 3743283
-Chain        : 000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126
+Nonce        : 1870025
+Chain        : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
 
 A valid block can then be verified independently.
 
@@ -87,8 +87,10 @@ The verifier recalculates the block result and compares it with the stored chain
 
 Example:
 
-Stored    : 000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126
-Result    : 000002bd303922248dd9a0a7da746dd0efa214af53c8af9a8ab0c4e4e6d9d126
+Stored    : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
+
+Nonce     : 1870025
+Result    : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
 
 Status    : VALID
 Match     : True
