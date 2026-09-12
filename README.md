@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="logo.png" width="180">
+  <img src="Logo.png" width="180">
 </p>
 
-# Queen Electronic Cash System
+# QUEEN
+# $LOID
+# Electronic Cash System
 
 Queen is an experimental peer-to-peer electronic cash system written in Python.
 
@@ -61,8 +63,8 @@ Example:
 
 Block        : 0
 Difficulty   : 1
-Nonce        : 1870025
-Chain        : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
+Nonce        : 3232863
+Chain        : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
 
 A valid block can then be verified independently.
 
@@ -87,10 +89,9 @@ The verifier recalculates the block result and compares it with the stored chain
 
 Example:
 
-Stored    : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
+Stored    : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
 
-Nonce     : 1870025
-Result    : 000004155f26cf4c5bbf5ca9630d6f7b52e6b35ced8a20cd4fbeb462e54b786d
+Result    : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
 
 Status    : VALID
 Match     : True
@@ -222,7 +223,7 @@ python Loid_miner.py
 The miner displays information such as:
 
 MINING #0
-NONCE 3742000
+NONCE 3212000
 HASHRATE 3272 H/s
 HASH ...
 
