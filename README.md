@@ -2,8 +2,8 @@
   <img src="Logo.png" width="180">
 </p>
 
-# QUEEN [$LOID]
-# Electronic Cash System
+# QUEEN $LOID
+## Electronic Cash System
 
 Queen is an experimental peer-to-peer electronic cash system written in Python.
 
