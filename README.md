@@ -2,15 +2,14 @@
   <img src="Logo.png" width="180">
 </p>
 
-# QUEEN
-# $LOID
+# QUEEN [$LOID]
 # Electronic Cash System
 
 Queen is an experimental peer-to-peer electronic cash system written in Python.
 
 The project explores a simple blockchain architecture with:
 
-- Proof of Work (PoW)
+- Proof of Work
 - SHA-256 based hashing
 - UTXO transaction model
 - Merkle roots
@@ -152,6 +151,10 @@ Run the wallet:
 
 python3 Loid_wallet.py
 
+Run the mempool:
+
+python3 View_mempool.py
+
 ---
 
 Android / Termux
@@ -186,6 +189,10 @@ Run the wallet:
 
 python Loid_wallet.py
 
+Run the mempool:
+
+python View_mempool.py
+
 CPU mining performance on Android devices will vary significantly between devices.
 
 ---
@@ -209,6 +216,7 @@ python Loid_node.py
 python Loid_miner.py
 python Loid_verify.py
 python Loid_wallet.py
+python View_mempool.py
 
 The exact command may differ depending on the operating system.
 
@@ -264,6 +272,9 @@ Loid_wallet.py
 Loid_verify.py
     Blockchain verification
 
+View_mempool.py
+     Terminal view mempool 
+
 Loid_ui.py
     Terminal interface
 
@@ -315,7 +326,7 @@ python --version
 
 Example:
 
-python mining.py
+python Loid_miner.py
 
 4. Full error message / traceback
 
