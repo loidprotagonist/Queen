@@ -1,0 +1,1251 @@
+[
+  {
+    "block": 0,
+    "timestamp": 1768284086,
+    "difficulty": 1,
+    "merkle_root": "1638cff299bd634568d73730cc578d222768a85f30d275f0b09111a92a656917",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID26jAxYn9PPGggKDYw6q44jXsZnL5VDGfZ",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1768284086,
+        "message": "The Lever 13/Jan/2026 The Federal Reserve\u2019s $420 Billion Wall Street Bailout",
+        "txid": "1638cff299bd634568d73730cc578d222768a85f30d275f0b09111a92a656917"
+      }
+    ],
+    "previous_chain": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 3232863,
+    "chain": "0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6"
+  },
+  {
+    "block": 1,
+    "timestamp": 1789070966,
+    "difficulty": 1,
+    "merkle_root": "0f0db0a5e34b19351b3bd682d769fa7b982db08645f408458e85504b4996ccd4",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDCBVpb9BpveLMUmmqcZi1Hw7VHoi7TRoWM",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789070966,
+        "message": "Loid Protagonist",
+        "txid": "0f0db0a5e34b19351b3bd682d769fa7b982db08645f408458e85504b4996ccd4"
+      }
+    ],
+    "previous_chain": "0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6",
+    "nonce": 2716205,
+    "chain": "0000010387f0596d1f01340b1e10049a825fab0fafab90d8514e033a3050d621"
+  },
+  {
+    "block": 2,
+    "timestamp": 1789073411,
+    "difficulty": 1,
+    "merkle_root": "11621ae14d46908fc6b310b918a2e1142e0b45f151b9ca78a5d5adec331ccc8e",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID7qLnybeX6pwmNAa9YY7xauUUb3jMgsjBz",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789073411,
+        "message": "MINING REWARD",
+        "txid": "11621ae14d46908fc6b310b918a2e1142e0b45f151b9ca78a5d5adec331ccc8e"
+      }
+    ],
+    "previous_chain": "0000010387f0596d1f01340b1e10049a825fab0fafab90d8514e033a3050d621",
+    "nonce": 469230,
+    "chain": "0000051f69418e43216f9c3d8fcf182c4d68e6b3bf124aaf5b3ba107ecec07e9"
+  },
+  {
+    "block": 3,
+    "timestamp": 1789073744,
+    "difficulty": 1,
+    "merkle_root": "c4980137bceebf647130672e6c89ee5d0fb137d0a494f13decaa8a9dfabaefd6",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID7WZj9aJEP7AHUEFxQ8xwyV5sYEoZwkgZE",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789073744,
+        "message": "MINING REWARD",
+        "txid": "c4980137bceebf647130672e6c89ee5d0fb137d0a494f13decaa8a9dfabaefd6"
+      }
+    ],
+    "previous_chain": "0000051f69418e43216f9c3d8fcf182c4d68e6b3bf124aaf5b3ba107ecec07e9",
+    "nonce": 936289,
+    "chain": "000003a2f7d7cfd8ee36d326f30bdbbd96c29f1c1f6e66560523a735c3b1a660"
+  },
+  {
+    "block": 4,
+    "timestamp": 1789075059,
+    "difficulty": 1,
+    "merkle_root": "00605f918eae054519544b0a6dbe2ceee12b2c0fd31c9277817dfa7f76bc2452",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID4KngAH5vxUcwisn33yokv9nfVkiyPyYLn",
+            "amount": 100001000
+          }
+        ],
+        "timestamp": 1789075059,
+        "message": "MINING REWARD",
+        "txid": "55da20f9838d96f1cf1214345fbe0e2bc3cfe7c2b53a0a1543604872dc0fd7aa"
+      },
+      {
+        "fee": 1000,
+        "inputs": [
+          {
+            "public_key": "e7800bc61f6b52927ff2c1280e56dc04db202c3d1805b4af30e7a3d022e10782f4ad7174a0ac8ebd558db2264757f0cf728435cf786582c26e5cc725deece9d3",
+            "signature": "304402200a49ebf64a7c6e73d1fa67def0496cd0f936706f609f208d638164fd5d3332a602206e743ae5806d88d2dfc0f8fc809a0cf9f7ea048b13b220e70ddf0379f4e28556",
+            "txid": "c4980137bceebf647130672e6c89ee5d0fb137d0a494f13decaa8a9dfabaefd6",
+            "vout": 0
+          }
+        ],
+        "message": "Hello, Loid Protagonist",
+        "outputs": [
+          {
+            "address": "LOID26jAxYn9PPGggKDYw6q44jXsZnL5VDGfZ",
+            "amount": 1840000
+          },
+          {
+            "address": "LOID7WZj9aJEP7AHUEFxQ8xwyV5sYEoZwkgZE",
+            "amount": 98159000
+          }
+        ],
+        "timestamp": 1789074990,
+        "txid": "29daec4be3718779f2c4d519ff4c841e5c0f5d04e6f67d2f1b0ab9f6b7a53e95",
+        "version": 2
+      }
+    ],
+    "previous_chain": "000003a2f7d7cfd8ee36d326f30bdbbd96c29f1c1f6e66560523a735c3b1a660",
+    "nonce": 2221745,
+    "chain": "000007409eaabfc5af5dd8e369d1a8071f84d6e6587458edf2910d8050ac344a"
+  },
+  {
+    "block": 5,
+    "timestamp": 1789085421,
+    "difficulty": 1,
+    "merkle_root": "07d98f77e9181f4f954b35f55687e249da78eb9953c6ea0caabebb8a821ff28c",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDJdoRFhYosz3gjQD9hAu8AAzQE4eTrxKLy",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789085421,
+        "message": "MINING REWARD",
+        "txid": "07d98f77e9181f4f954b35f55687e249da78eb9953c6ea0caabebb8a821ff28c"
+      }
+    ],
+    "previous_chain": "000007409eaabfc5af5dd8e369d1a8071f84d6e6587458edf2910d8050ac344a",
+    "nonce": 514553,
+    "chain": "000002d62fb4672e354829e32d055f0527b8fc7658e15e30b5a04477dc772447"
+  },
+  {
+    "block": 6,
+    "timestamp": 1789086614,
+    "difficulty": 1,
+    "merkle_root": "c73d34161c6c4f7e0f0fd8b9e8a6a08322e7bc4c375a75606f393cfdaa0e0f1a",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID4KngAH5vxUcwisn33yokv9nfVkiyPyYLn",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789086614,
+        "message": "MINING REWARD",
+        "txid": "c73d34161c6c4f7e0f0fd8b9e8a6a08322e7bc4c375a75606f393cfdaa0e0f1a"
+      }
+    ],
+    "previous_chain": "000002d62fb4672e354829e32d055f0527b8fc7658e15e30b5a04477dc772447",
+    "nonce": 2142585,
+    "chain": "0000007b5dd202cf3c683b8f3fa0c2395147387ce63c22b0164099788df2dfa2"
+  },
+  {
+    "block": 7,
+    "timestamp": 1789090988,
+    "difficulty": 1,
+    "merkle_root": "56291359f95ce1d0e6da68057d8168b79b78a00c31653cd3737f7591b92fc7e3",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID45FAYuf83eGMdm4H7pUkLxqPAafkmaB7K",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789090988,
+        "message": "MINING REWARD",
+        "txid": "56291359f95ce1d0e6da68057d8168b79b78a00c31653cd3737f7591b92fc7e3"
+      }
+    ],
+    "previous_chain": "0000007b5dd202cf3c683b8f3fa0c2395147387ce63c22b0164099788df2dfa2",
+    "nonce": 1822851,
+    "chain": "000005c02c97803595e6c6d35afb5ddb82016eafb39ab9c8affdbfa798c5b06d"
+  },
+  {
+    "block": 8,
+    "timestamp": 1789096383,
+    "difficulty": 1,
+    "merkle_root": "3e5566a3d0d98e889c471b0037f3dcf30b8c3939f97a00b84dc63c1171eb1fb5",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDGQ5cS14P9iuTC2AbGe4st3m7tnuYB35ZD",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789096383,
+        "message": "MINING REWARD",
+        "txid": "3e5566a3d0d98e889c471b0037f3dcf30b8c3939f97a00b84dc63c1171eb1fb5"
+      }
+    ],
+    "previous_chain": "000005c02c97803595e6c6d35afb5ddb82016eafb39ab9c8affdbfa798c5b06d",
+    "nonce": 1422480,
+    "chain": "000005af12ee5412c7ba1853adec07c9cffb10c0887e5977b90d069ed373a788"
+  },
+  {
+    "block": 9,
+    "timestamp": 1789097163,
+    "difficulty": 1,
+    "merkle_root": "b433df42a8474b7427267e8b709017da63a351176076fbe2700a5f7aed6660cd",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID8ZjqXmkkZMNDQ1aSo54rZEDRePGAPoMpr",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789097163,
+        "message": "MINING REWARD",
+        "txid": "b433df42a8474b7427267e8b709017da63a351176076fbe2700a5f7aed6660cd"
+      }
+    ],
+    "previous_chain": "000005af12ee5412c7ba1853adec07c9cffb10c0887e5977b90d069ed373a788",
+    "nonce": 38261,
+    "chain": "0000062d11a9a30d3bbb073e8a5ea37bbc8f7c30134d3768680752fc195a897d"
+  },
+  {
+    "block": 10,
+    "timestamp": 1789098583,
+    "difficulty": 1,
+    "merkle_root": "8f2ce639f16dda6d7ba384f84e3d01452db036e656d0678a05e27de811c8ab8d",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDd3JxyvyK8rHq65fPjHrJb3nTBswVrS6F",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789098583,
+        "message": "MINING REWARD",
+        "txid": "8f2ce639f16dda6d7ba384f84e3d01452db036e656d0678a05e27de811c8ab8d"
+      }
+    ],
+    "previous_chain": "0000062d11a9a30d3bbb073e8a5ea37bbc8f7c30134d3768680752fc195a897d",
+    "nonce": 314793,
+    "chain": "00000736a07fde835faeb7c479f9ebb58695872948f1decf61829c56c1f0cd13"
+  },
+  {
+    "block": 11,
+    "timestamp": 1789098792,
+    "difficulty": 1,
+    "merkle_root": "901a2c7bb2e6f94b0e0fe605b45a191f00837353dab2dc2f32ec89c9c4850d1d",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID41kvsdQ7a7nhQj5DyK9CzZaiVjhrpRpuP",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789098792,
+        "message": "MINING REWARD",
+        "txid": "901a2c7bb2e6f94b0e0fe605b45a191f00837353dab2dc2f32ec89c9c4850d1d"
+      }
+    ],
+    "previous_chain": "00000736a07fde835faeb7c479f9ebb58695872948f1decf61829c56c1f0cd13",
+    "nonce": 40089,
+    "chain": "00000184191a70f5541b3d8e00503aea63a9629bd7f30eb3f6b4f9f82968189c"
+  },
+  {
+    "block": 12,
+    "timestamp": 1789099223,
+    "difficulty": 1,
+    "merkle_root": "7b053463cb1004b45d2def6455348f3c8ddf52aae90306e507d7872565e1978b",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDExQi3y2a9SibuXBR7NFZRQCcHubJFPiFu",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789099223,
+        "message": "MINING REWARD",
+        "txid": "7b053463cb1004b45d2def6455348f3c8ddf52aae90306e507d7872565e1978b"
+      }
+    ],
+    "previous_chain": "00000184191a70f5541b3d8e00503aea63a9629bd7f30eb3f6b4f9f82968189c",
+    "nonce": 1265799,
+    "chain": "000003c3d5118b667b69c6791799f2b4208e4595d275e0ed078ecba299891667"
+  },
+  {
+    "block": 13,
+    "timestamp": 1789103222,
+    "difficulty": 1,
+    "merkle_root": "1f9d8f172dfceb35abbdd01c5db5f35e1a5a8393f7906db1cf9aaa3e5b6eab61",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDP24wW22YbFA7Xx43c61gQEMpHhX2N8QVp",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789103222,
+        "message": "MINING REWARD",
+        "txid": "1f9d8f172dfceb35abbdd01c5db5f35e1a5a8393f7906db1cf9aaa3e5b6eab61"
+      }
+    ],
+    "previous_chain": "000003c3d5118b667b69c6791799f2b4208e4595d275e0ed078ecba299891667",
+    "nonce": 1971567,
+    "chain": "00000228d169bcee794c69238dcd6180215bdabc584e7e1d3dccb313d2bf7798"
+  },
+  {
+    "block": 14,
+    "timestamp": 1789105127,
+    "difficulty": 1,
+    "merkle_root": "1ae2a65a6aa66418e6895ce6bf2def20f04768c131e3a5952e2fa88814d7d794",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDJh5gmGLhqqx32QSeu8owdvhH12wBFq94R",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789105127,
+        "message": "MINING REWARD",
+        "txid": "1ae2a65a6aa66418e6895ce6bf2def20f04768c131e3a5952e2fa88814d7d794"
+      }
+    ],
+    "previous_chain": "00000228d169bcee794c69238dcd6180215bdabc584e7e1d3dccb313d2bf7798",
+    "nonce": 3680038,
+    "chain": "000004b73a3c64f8bb203858d47a139d719adc476f91b23272b5a4b600ac6053"
+  },
+  {
+    "block": 15,
+    "timestamp": 1789120423,
+    "difficulty": 1,
+    "merkle_root": "c565f5eb71e1c8d266d007b16cd24ba4aeabfcbce41b4179e93724d8d6c21a20",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDCuEYohYz7npqzMg8kD3X9rHaZLNgGosWD",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789120423,
+        "message": "MINING REWARD",
+        "txid": "c565f5eb71e1c8d266d007b16cd24ba4aeabfcbce41b4179e93724d8d6c21a20"
+      }
+    ],
+    "previous_chain": "000004b73a3c64f8bb203858d47a139d719adc476f91b23272b5a4b600ac6053",
+    "nonce": 2041636,
+    "chain": "00000103f3bcbf5e0042e01c714e2383998d4364cde6b1668c1df468726b83bd"
+  },
+  {
+    "block": 16,
+    "timestamp": 1789123225,
+    "difficulty": 1,
+    "merkle_root": "8d196a4de268df01b76e7837a1858f5e67b4d0a634afbf4b956001a41ad94a7b",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDNGifoHatbAR6zJy4Sj9WwHHdJfdGTHbEs",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789123225,
+        "message": "MINING REWARD",
+        "txid": "8d196a4de268df01b76e7837a1858f5e67b4d0a634afbf4b956001a41ad94a7b"
+      }
+    ],
+    "previous_chain": "00000103f3bcbf5e0042e01c714e2383998d4364cde6b1668c1df468726b83bd",
+    "nonce": 1990559,
+    "chain": "000003eaec30cd9dfbcc77fc7360e270f7d7cc7408d64757b2a19eda940b0c08"
+  },
+  {
+    "block": 17,
+    "timestamp": 1789151024,
+    "difficulty": 1,
+    "merkle_root": "86fa42a3facb632ed9606a262ec303b8721670dbe359d77cd9a3ff9c3abef0c8",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDMwAFGndHwvvxxcv3tF45xNqPxo2j3Ni8Y",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789151024,
+        "message": "MINING REWARD",
+        "txid": "86fa42a3facb632ed9606a262ec303b8721670dbe359d77cd9a3ff9c3abef0c8"
+      }
+    ],
+    "previous_chain": "000003eaec30cd9dfbcc77fc7360e270f7d7cc7408d64757b2a19eda940b0c08",
+    "nonce": 368638,
+    "chain": "000001b77918a22c0667802872b2e570873c1b3e2e5368065bc1e90635800f89"
+  },
+  {
+    "block": 18,
+    "timestamp": 1789153514,
+    "difficulty": 1,
+    "merkle_root": "3470887c1bbf743efe539d9122829740723776d0a4c6251e3b5e12b5df30c23f",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDFXssZv9i5irrvo72ruRcYb19pSXC8kZ8a",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789153514,
+        "message": "MINING REWARD",
+        "txid": "3470887c1bbf743efe539d9122829740723776d0a4c6251e3b5e12b5df30c23f"
+      }
+    ],
+    "previous_chain": "000001b77918a22c0667802872b2e570873c1b3e2e5368065bc1e90635800f89",
+    "nonce": 177111,
+    "chain": "0000052ac72b7b406d17d3ac8207acad7c19301450756830f9b7a618c8f9780e"
+  },
+  {
+    "block": 19,
+    "timestamp": 1789157163,
+    "difficulty": 1,
+    "merkle_root": "1706f94a9258bcbcce1a7bad80c1f67c45b7fb0b4dff2f7b9ccd980f897c4700",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID2nodPqVEvW18gQhXFG9CW9PLX1rRoNh66",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789157163,
+        "message": "MINING REWARD",
+        "txid": "1706f94a9258bcbcce1a7bad80c1f67c45b7fb0b4dff2f7b9ccd980f897c4700"
+      }
+    ],
+    "previous_chain": "0000052ac72b7b406d17d3ac8207acad7c19301450756830f9b7a618c8f9780e",
+    "nonce": 1579874,
+    "chain": "0000050fc8759536c5e156805cc21b0d7513ff06ff69eeab79f0c3bcba1aa247"
+  },
+  {
+    "block": 20,
+    "timestamp": 1789160093,
+    "difficulty": 1,
+    "merkle_root": "6771bb53fc075e3718130403c18b8081c51f902e91ac710f79a26570ec994984",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID6sr43gVEYUGAF4KrjFod5SD41ApbUzHVn",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789160093,
+        "message": "MINING REWARD",
+        "txid": "6771bb53fc075e3718130403c18b8081c51f902e91ac710f79a26570ec994984"
+      }
+    ],
+    "previous_chain": "0000050fc8759536c5e156805cc21b0d7513ff06ff69eeab79f0c3bcba1aa247",
+    "nonce": 4740215,
+    "chain": "000001c25d663639e8fd1a7073913f6851316db0bb995da9e81171ae145e3a48"
+  },
+  {
+    "block": 21,
+    "timestamp": 1789163124,
+    "difficulty": 1,
+    "merkle_root": "722bcde99626879cf9e6789dfacb33b4c20fb6bc8b3c0b4b819a3374f0bfd95d",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDKNS1ekLbySK8DAYctn1RVYjfk6YytiRyk",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789163124,
+        "message": "MINING REWARD",
+        "txid": "722bcde99626879cf9e6789dfacb33b4c20fb6bc8b3c0b4b819a3374f0bfd95d"
+      }
+    ],
+    "previous_chain": "000001c25d663639e8fd1a7073913f6851316db0bb995da9e81171ae145e3a48",
+    "nonce": 2043897,
+    "chain": "000004028e1621d425f839a8ad666f2430a3a01413cafea0a10d567e172eb7fb"
+  },
+  {
+    "block": 22,
+    "timestamp": 1789171481,
+    "difficulty": 1,
+    "merkle_root": "0bebe05dca5aa8f88c0b8b2cc3afe11cb3f17a3de07eb068a1862332e29317e9",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDGhg3uCBCtZYpPNkwGsK8SSWEf9JSadcyt",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789171481,
+        "message": "MINING REWARD",
+        "txid": "0bebe05dca5aa8f88c0b8b2cc3afe11cb3f17a3de07eb068a1862332e29317e9"
+      }
+    ],
+    "previous_chain": "000004028e1621d425f839a8ad666f2430a3a01413cafea0a10d567e172eb7fb",
+    "nonce": 814298,
+    "chain": "000005f606026de1fa03c876d0967c98286b6475b5867b77fc105112551265d9"
+  },
+  {
+    "block": 23,
+    "timestamp": 1789182375,
+    "difficulty": 1,
+    "merkle_root": "50eb4e518d1beb660528778029813be644dfe97444500348ba0ceba5d237ee77",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDKKqAoufyw5fUsHY5aVbqiQKJwXwKyd4AZ",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789182375,
+        "message": "MINING REWARD",
+        "txid": "50eb4e518d1beb660528778029813be644dfe97444500348ba0ceba5d237ee77"
+      }
+    ],
+    "previous_chain": "000005f606026de1fa03c876d0967c98286b6475b5867b77fc105112551265d9",
+    "nonce": 473310,
+    "chain": "00000631478f08e094e3ddad90203c2129b297bde8f630a0029297e27a5bea8e"
+  },
+  {
+    "block": 24,
+    "timestamp": 1789183369,
+    "difficulty": 1,
+    "merkle_root": "3128cce5af6b0ab758f9cb1d8fa48d39e74898e0a6e596085ba28a0f247bb5ab",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDKpZmqm1GFdWajuk9i8txvLzqFWcPQWqqV",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789183369,
+        "message": "MINING REWARD",
+        "txid": "3128cce5af6b0ab758f9cb1d8fa48d39e74898e0a6e596085ba28a0f247bb5ab"
+      }
+    ],
+    "previous_chain": "00000631478f08e094e3ddad90203c2129b297bde8f630a0029297e27a5bea8e",
+    "nonce": 488890,
+    "chain": "000001ec795518e96ba68d4de92b3906e7767605e4f2aad73b3f451c1c0d16d1"
+  },
+  {
+    "block": 25,
+    "timestamp": 1789184819,
+    "difficulty": 1,
+    "merkle_root": "311fe8dc0801f0a8f13074086223602483974397437e7bbce288ed6f515d8ce7",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID3MCu4k8tfbo3M62v9wPFDyXVFk9YcnRVR",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789184819,
+        "message": "MINING REWARD",
+        "txid": "311fe8dc0801f0a8f13074086223602483974397437e7bbce288ed6f515d8ce7"
+      }
+    ],
+    "previous_chain": "000001ec795518e96ba68d4de92b3906e7767605e4f2aad73b3f451c1c0d16d1",
+    "nonce": 563832,
+    "chain": "0000037773fc9208c7cbc9804ae13707687a154ae7bf3e4c58734445f632d82b"
+  },
+  {
+    "block": 26,
+    "timestamp": 1789185594,
+    "difficulty": 1,
+    "merkle_root": "4ca1ee47e3da4c147ca96bcd6302ed1d3ddb41ffe95f1ca42114cb5457d5a6d3",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID9dpZdvrPhwHD4dYL67tnAAdyKtT25AJuS",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789185594,
+        "message": "MINING REWARD",
+        "txid": "4ca1ee47e3da4c147ca96bcd6302ed1d3ddb41ffe95f1ca42114cb5457d5a6d3"
+      }
+    ],
+    "previous_chain": "0000037773fc9208c7cbc9804ae13707687a154ae7bf3e4c58734445f632d82b",
+    "nonce": 1659084,
+    "chain": "0000015e5dcb023b3a52da4a2bff29c116148d0abca687d359254bf73d7283e9"
+  },
+  {
+    "block": 27,
+    "timestamp": 1789186894,
+    "difficulty": 1,
+    "merkle_root": "c26292696ed180655f1c776394c520dc761179c9162d8195800ced95228ecb3a",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDJGoVHKhsfZuQKiGTdHudedRFpftcRkk5B",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789186894,
+        "message": "MINING REWARD",
+        "txid": "c26292696ed180655f1c776394c520dc761179c9162d8195800ced95228ecb3a"
+      }
+    ],
+    "previous_chain": "0000015e5dcb023b3a52da4a2bff29c116148d0abca687d359254bf73d7283e9",
+    "nonce": 1867126,
+    "chain": "0000066215c01cefcf8a039fe6f69a091c9f69eb38848055f9679564249efc7f"
+  },
+  {
+    "block": 28,
+    "timestamp": 1789188016,
+    "difficulty": 1,
+    "merkle_root": "79f685f9cbea5205fb7cd89af0278b2618cc2e293d277ad679ec0730b7458fba",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDJAqXHLjvvmWc1QiZWzH7CngS9XcBMjPN",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789188016,
+        "message": "MINING REWARD",
+        "txid": "79f685f9cbea5205fb7cd89af0278b2618cc2e293d277ad679ec0730b7458fba"
+      }
+    ],
+    "previous_chain": "0000066215c01cefcf8a039fe6f69a091c9f69eb38848055f9679564249efc7f",
+    "nonce": 46529,
+    "chain": "000003b41047b16c2beb989a2b588ba959bc4dc529474218c896d49ad6cbd0f1"
+  },
+  {
+    "block": 29,
+    "timestamp": 1789188195,
+    "difficulty": 1,
+    "merkle_root": "fc31d88fff1d5610070adea92bab5c4c0fd8ffad770abeacb56ade2dba573198",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID8Vnwd5yx9iayxL6Yo5AhUEQFDnLxYXKgF",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789188195,
+        "message": "MINING REWARD",
+        "txid": "fc31d88fff1d5610070adea92bab5c4c0fd8ffad770abeacb56ade2dba573198"
+      }
+    ],
+    "previous_chain": "000003b41047b16c2beb989a2b588ba959bc4dc529474218c896d49ad6cbd0f1",
+    "nonce": 1040568,
+    "chain": "000007f0511d46998f8f5cc0607f4b77fbb2d94702142f3c8c19ca728967807f"
+  },
+  {
+    "block": 30,
+    "timestamp": 1789195505,
+    "difficulty": 1,
+    "merkle_root": "35c4fd301d4c5b9d6c7f2f68b682debd788a68bda3320e8d6e9e5391ac486027",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID5thUoGyHyLHpv3MiDN42F4dvn5aCLsNaF",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789195505,
+        "message": "MINING REWARD",
+        "txid": "35c4fd301d4c5b9d6c7f2f68b682debd788a68bda3320e8d6e9e5391ac486027"
+      }
+    ],
+    "previous_chain": "000007f0511d46998f8f5cc0607f4b77fbb2d94702142f3c8c19ca728967807f",
+    "nonce": 1709648,
+    "chain": "0000059cee739bf35528f725596231834a6f3c84a37245a7c9b19d1f445a4269"
+  },
+  {
+    "block": 31,
+    "timestamp": 1789199711,
+    "difficulty": 1,
+    "merkle_root": "7304fccccf8376d56a8e9c8680e5a681ef355bcec01ef5d763dd3eae9e1e071a",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDQJBWTkFMxwjLLHwA33qe9ArBBp82ZMDjb",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789199711,
+        "message": "MINING REWARD",
+        "txid": "7304fccccf8376d56a8e9c8680e5a681ef355bcec01ef5d763dd3eae9e1e071a"
+      }
+    ],
+    "previous_chain": "0000059cee739bf35528f725596231834a6f3c84a37245a7c9b19d1f445a4269",
+    "nonce": 1188667,
+    "chain": "0000054b408a9841e5a5da7f2483a0e197a227f3900f66f44eb7c48f65aeff64"
+  },
+  {
+    "block": 32,
+    "timestamp": 1789200679,
+    "difficulty": 1,
+    "merkle_root": "c13544d33b671a89999337dd3621bb6824126f3c9f51643c7883a15c4e231b69",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDAHwrHKfq7bFnt2jwh2Y1afvQu5VvWHpB5",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789200679,
+        "message": "MINING REWARD",
+        "txid": "c13544d33b671a89999337dd3621bb6824126f3c9f51643c7883a15c4e231b69"
+      }
+    ],
+    "previous_chain": "0000054b408a9841e5a5da7f2483a0e197a227f3900f66f44eb7c48f65aeff64",
+    "nonce": 630886,
+    "chain": "000000e955fb015efed5b306f729dca16bb960d2ad6b1456969c2a2914f637c6"
+  },
+  {
+    "block": 33,
+    "timestamp": 1789201952,
+    "difficulty": 1,
+    "merkle_root": "922e16eb6cb5c16f053f707e3d923b1a8c4d791ce242a721fe1db3a6bcb2f3aa",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID9cFmFw4AS1insEq5HoSFCaTPJkLGqBJ2L",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789201952,
+        "message": "MINING REWARD",
+        "txid": "922e16eb6cb5c16f053f707e3d923b1a8c4d791ce242a721fe1db3a6bcb2f3aa"
+      }
+    ],
+    "previous_chain": "000000e955fb015efed5b306f729dca16bb960d2ad6b1456969c2a2914f637c6",
+    "nonce": 410835,
+    "chain": "0000072b420935e239de27da9182613e78d4a996f4da6b97e50759798dae2015"
+  },
+  {
+    "block": 34,
+    "timestamp": 1789202224,
+    "difficulty": 1,
+    "merkle_root": "a88a2d8cde255c8a50afd29279d38c938bbe2fa875c3adde47f92c0646b1e140",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID3MQjz81FcQAyvASM4cpo9HwdtAZwi5zh4",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789202224,
+        "message": "MINING REWARD",
+        "txid": "a88a2d8cde255c8a50afd29279d38c938bbe2fa875c3adde47f92c0646b1e140"
+      }
+    ],
+    "previous_chain": "0000072b420935e239de27da9182613e78d4a996f4da6b97e50759798dae2015",
+    "nonce": 758675,
+    "chain": "00000413895b16b5916be5a8a40317c0e0d931d10af96aae507696527610271b"
+  },
+  {
+    "block": 35,
+    "timestamp": 1789211902,
+    "difficulty": 1,
+    "merkle_root": "f82d689a0e7962b739216630c1fb29776644c7b86120b5e4e77b281d05f2121f",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID6kPuUosN5aWy6KMEQ5ADYWYHd7wNRxbZ1",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789211902,
+        "message": "MINING REWARD",
+        "txid": "f82d689a0e7962b739216630c1fb29776644c7b86120b5e4e77b281d05f2121f"
+      }
+    ],
+    "previous_chain": "00000413895b16b5916be5a8a40317c0e0d931d10af96aae507696527610271b",
+    "nonce": 2795952,
+    "chain": "000001b02a2f63578dcd141a2cf85267bb389b718d9f26d254753d00854f99fa"
+  },
+  {
+    "block": 36,
+    "timestamp": 1789511772,
+    "difficulty": 1,
+    "merkle_root": "3b62683349d91ae4ba6f2de66a527368b31055c2527621ce3188537aa5e88362",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID2uS71GFHshkRq4UofiiqLPRgvm4ZD7RpM",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789511772,
+        "message": "MINING REWARD",
+        "txid": "3b62683349d91ae4ba6f2de66a527368b31055c2527621ce3188537aa5e88362"
+      }
+    ],
+    "previous_chain": "000001b02a2f63578dcd141a2cf85267bb389b718d9f26d254753d00854f99fa",
+    "nonce": 33675,
+    "chain": "000004655680895ff55ed21594c6f193573a0ba585038ad89d716fa241fe2fb5"
+  },
+  {
+    "block": 37,
+    "timestamp": 1789696137,
+    "difficulty": 1,
+    "merkle_root": "b5c4f08a46d828b037a806090517824649369beca3b4c0f73b844930c71ff47c",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDBuY68UrHwirMwDGf7G9Sg3H5Fq7Zt1hSc",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789696137,
+        "message": "MINING REWARD",
+        "txid": "b5c4f08a46d828b037a806090517824649369beca3b4c0f73b844930c71ff47c"
+      }
+    ],
+    "previous_chain": "000004655680895ff55ed21594c6f193573a0ba585038ad89d716fa241fe2fb5",
+    "nonce": 494463,
+    "chain": "00000287ae115ed4c733fbb50a33594f870ac41c4ee1314155fd6bcf2dfa8730"
+  },
+  {
+    "block": 38,
+    "timestamp": 1789696540,
+    "difficulty": 1,
+    "merkle_root": "58c85c31e4243987bd7207c7fd23c28a08dccbffaefdaea12a8f12bfb07aba40",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID2Gvspd1v5KuRhSn6B2BfrcYwwZAURtU7k",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789696540,
+        "message": "MINING REWARD",
+        "txid": "58c85c31e4243987bd7207c7fd23c28a08dccbffaefdaea12a8f12bfb07aba40"
+      }
+    ],
+    "previous_chain": "00000287ae115ed4c733fbb50a33594f870ac41c4ee1314155fd6bcf2dfa8730",
+    "nonce": 1397683,
+    "chain": "00000741d27a4122ebd39f66923d3394a00c6b669a28d778192591850adffe89"
+  },
+  {
+    "block": 39,
+    "timestamp": 1789697392,
+    "difficulty": 1,
+    "merkle_root": "c4fbf9f095f781a36ad8852b2d0cccd6c4d6f6111ce9ee6f4493278caa2dfe75",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDBFHmW7BCpraxePzMgbobf2Z56fxQRy97G",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789697392,
+        "message": "MINING REWARD",
+        "txid": "c4fbf9f095f781a36ad8852b2d0cccd6c4d6f6111ce9ee6f4493278caa2dfe75"
+      }
+    ],
+    "previous_chain": "00000741d27a4122ebd39f66923d3394a00c6b669a28d778192591850adffe89",
+    "nonce": 1450754,
+    "chain": "0000020a5749be546eb285b0a14544658083640f904b6a56591ad8f12486a734"
+  },
+  {
+    "block": 40,
+    "timestamp": 1789698228,
+    "difficulty": 1,
+    "merkle_root": "63db28678a4abc5af9b0488e9e4fe933bf81b5ff04b48e64783307c75e139170",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID89QYsv9WY7YWxTAndsKb3iSjSKu6TxNbu",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789698228,
+        "message": "MINING REWARD",
+        "txid": "63db28678a4abc5af9b0488e9e4fe933bf81b5ff04b48e64783307c75e139170"
+      }
+    ],
+    "previous_chain": "0000020a5749be546eb285b0a14544658083640f904b6a56591ad8f12486a734",
+    "nonce": 2170505,
+    "chain": "00000342c0d03f20740f77eb3d4c75efa0f55cc8c93170c93f4955e26ed489b6"
+  },
+  {
+    "block": 41,
+    "timestamp": 1789712445,
+    "difficulty": 1,
+    "merkle_root": "420ed3db2b9c850f7fa48ec613a2bbea5dd9f3681e870f63d8b01019cb5af226",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDm2b6q9JbnKxBheswsUPYnbkiX3aaR98k",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789712445,
+        "message": "MINING REWARD",
+        "txid": "420ed3db2b9c850f7fa48ec613a2bbea5dd9f3681e870f63d8b01019cb5af226"
+      }
+    ],
+    "previous_chain": "00000342c0d03f20740f77eb3d4c75efa0f55cc8c93170c93f4955e26ed489b6",
+    "nonce": 666791,
+    "chain": "000003e9e627a467d99bcc11e2622b47c9f32c6317463b6f8a0a83203e6d93c4"
+  },
+  {
+    "block": 42,
+    "timestamp": 1789714020,
+    "difficulty": 1,
+    "merkle_root": "d87dab841d460009f164ca437a74a1d00aea1dbef9aba85a2f3ee96a6df8afaa",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDFkti7bpqpY9dqog2rqhq6mNqL8Lew4vWV",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789714020,
+        "message": "MINING REWARD",
+        "txid": "d87dab841d460009f164ca437a74a1d00aea1dbef9aba85a2f3ee96a6df8afaa"
+      }
+    ],
+    "previous_chain": "000003e9e627a467d99bcc11e2622b47c9f32c6317463b6f8a0a83203e6d93c4",
+    "nonce": 3745400,
+    "chain": "00000305619ab27d693a51f0a71876a01b6a971e60caae9ef48e4b9b0dcd2bb0"
+  },
+  {
+    "block": 43,
+    "timestamp": 1789717542,
+    "difficulty": 1,
+    "merkle_root": "5f1e711fa88650ee322e4813eccbd32fe01dbfe1e6531d05ee1a8a0f334304da",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID2TLFXRKVtQxS7L985QDWQTaB9dpKoxShW",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789717542,
+        "message": "MINING REWARD",
+        "txid": "5f1e711fa88650ee322e4813eccbd32fe01dbfe1e6531d05ee1a8a0f334304da"
+      }
+    ],
+    "previous_chain": "00000305619ab27d693a51f0a71876a01b6a971e60caae9ef48e4b9b0dcd2bb0",
+    "nonce": 462334,
+    "chain": "0000076cbeed8c638cde3e58776bf15623bfdfc3badc713ce1f65f3a1c74ea12"
+  },
+  {
+    "block": 44,
+    "timestamp": 1789732524,
+    "difficulty": 1,
+    "merkle_root": "d0bfa34edf5e97d50bd15e2e918983aed8fc9d2cd43a4035c68df5bc54b2b967",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID9rhXy5KFSaJpCFP733AEmmqBCWpkFz38o",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789732524,
+        "message": "MINING REWARD",
+        "txid": "d0bfa34edf5e97d50bd15e2e918983aed8fc9d2cd43a4035c68df5bc54b2b967"
+      }
+    ],
+    "previous_chain": "0000076cbeed8c638cde3e58776bf15623bfdfc3badc713ce1f65f3a1c74ea12",
+    "nonce": 3027435,
+    "chain": "000002313f627041d57e7c4f2b7e8d2631ac358136a0e9ed8dc51d21b568b7d7"
+  },
+  {
+    "block": 45,
+    "timestamp": 1789735273,
+    "difficulty": 1,
+    "merkle_root": "f02142fc15d3d44a9cef31921daa8dd89d86d0a639d92d3e6a47e870d2f6876f",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDH1u2cQp2QzwFmzUEGsQ1kBvrewS4FU5cH",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789735273,
+        "message": "MINING REWARD",
+        "txid": "f02142fc15d3d44a9cef31921daa8dd89d86d0a639d92d3e6a47e870d2f6876f"
+      }
+    ],
+    "previous_chain": "000002313f627041d57e7c4f2b7e8d2631ac358136a0e9ed8dc51d21b568b7d7",
+    "nonce": 2297658,
+    "chain": "000007ff602f5b5fbaee70fff261856170f88bb759efcaa629a57d7d259b626f"
+  },
+  {
+    "block": 46,
+    "timestamp": 1789764106,
+    "difficulty": 1,
+    "merkle_root": "5cb461e1e9f68e704b9b59cf1888deb72a5c6ad510859fd7ab3f8cefcac85f39",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDi11hKdM1syCHH5aStwm1K23BQJ9Af17p",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789764106,
+        "message": "MINING REWARD",
+        "txid": "5cb461e1e9f68e704b9b59cf1888deb72a5c6ad510859fd7ab3f8cefcac85f39"
+      }
+    ],
+    "previous_chain": "000007ff602f5b5fbaee70fff261856170f88bb759efcaa629a57d7d259b626f",
+    "nonce": 1098184,
+    "chain": "000002cb1ee824bf92c323ba7d713fa60c1a62386b040d0207f71e258ddc1d4a"
+  },
+  {
+    "block": 47,
+    "timestamp": 1789764974,
+    "difficulty": 1,
+    "merkle_root": "994d7ea858d9199ceb486342ea878b4725781f967facef6e9f49973f121c5fdc",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID2q1CZHzfsu5P83Umytybx2zTN3FHsWFcM",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789764974,
+        "message": "MINING REWARD",
+        "txid": "994d7ea858d9199ceb486342ea878b4725781f967facef6e9f49973f121c5fdc"
+      }
+    ],
+    "previous_chain": "000002cb1ee824bf92c323ba7d713fa60c1a62386b040d0207f71e258ddc1d4a",
+    "nonce": 271331,
+    "chain": "0000043285f2511bce5cff16233a19042c0c7fdc2f50a47b68fbd63c65e22097"
+  },
+  {
+    "block": 48,
+    "timestamp": 1789766555,
+    "difficulty": 1,
+    "merkle_root": "5dbfeef7cef8d65f70f60306fc0aaf98e45580697e6bcc5d540430b86d670755",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDFtxfe9cPwwHyHc4eWUvz3ZsEvD6xhZyR3",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789766555,
+        "message": "MINING REWARD",
+        "txid": "5dbfeef7cef8d65f70f60306fc0aaf98e45580697e6bcc5d540430b86d670755"
+      }
+    ],
+    "previous_chain": "0000043285f2511bce5cff16233a19042c0c7fdc2f50a47b68fbd63c65e22097",
+    "nonce": 952923,
+    "chain": "0000062291e0a6369cc9a219c79631d1f0b321f3fe2840fbf1767e1b4b005285"
+  },
+  {
+    "block": 49,
+    "timestamp": 1789770332,
+    "difficulty": 1,
+    "merkle_root": "905ac7500ffcabccdff627808064ebe35f527b2d467a39976e7c952e67585eca",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOIDKPzJtHrLrjs4YrUeM16Nd84r2RS82rGji",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789770332,
+        "message": "MINING REWARD",
+        "txid": "905ac7500ffcabccdff627808064ebe35f527b2d467a39976e7c952e67585eca"
+      }
+    ],
+    "previous_chain": "0000062291e0a6369cc9a219c79631d1f0b321f3fe2840fbf1767e1b4b005285",
+    "nonce": 1064161,
+    "chain": "000007435bf2d37f5951091e62ca68e13e4606e24683dc0a1105dfc919e30c3b"
+  },
+  {
+    "block": 50,
+    "timestamp": 1789773667,
+    "difficulty": 1,
+    "merkle_root": "e1c92e728cb1b763ee8bf955be45e1f141c2fd6a43083ee3755dc898fc0288c9",
+    "transactions": [
+      {
+        "version": 1,
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "LOID7Nwe6zFwcxHS1RvEcvZBcUjHpWjyEXish",
+            "amount": 100000000
+          }
+        ],
+        "timestamp": 1789773667,
+        "message": "MINING REWARD",
+        "txid": "e1c92e728cb1b763ee8bf955be45e1f141c2fd6a43083ee3755dc898fc0288c9"
+      }
+    ],
+    "previous_chain": "000007435bf2d37f5951091e62ca68e13e4606e24683dc0a1105dfc919e30c3b",
+    "nonce": 186435,
+    "chain": "0000036da7c730fd299ebfaf245f250f5d81fe3a3de7ece720ea4d04bd69d1bf"
+  }
+]
