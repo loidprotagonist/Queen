@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Logo.png" width="180">
+  <img src="Green.png" width="180">
 </p>
 
 # QUEEN $LOID
