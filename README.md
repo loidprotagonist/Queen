@@ -109,7 +109,7 @@ Documentation
 
 Queen Paper
 
-The technical design and architecture of Queen are documented in the project paper:
+The technical design a kend architecture of Queen are documented in the project paper:
 
 "Read the Queen Paper"
 
@@ -117,6 +117,7 @@ The paper describes the system architecture, blockchain structure, transaction m
 
 ## Whitepaper
 https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk
+
 ---
 
 ## Queen Home Forum
@@ -250,6 +251,31 @@ You need:
 - A terminal
 ```
 For CPU mining, performance depends heavily on the device and CPU.
+
+## Wallet and Backup
+
+Example: View a Wallet
+```text
+cd ~/Queen
+cd Wallet
+ls
+```
+Example:
+```text
+cat Loid.json
+```
+Example: View a Backup
+```text
+cd ~/Queen
+cd Backup
+ls
+```
+Example:
+```text
+cat Loid.json
+```
+Keep wallet and backup files private.
+Do not share wallet files containing private keys or other sensitive data.
 
 ---
 
