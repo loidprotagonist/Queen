@@ -21,13 +21,13 @@ The experiment is ongoing.
 ## Supply
 
 Queen currently uses the following supply parameters:
-
+```text
 - Maximum supply: 1,000,000 QUEEN
 - Premine: 0
 - Decimal precision: 8
 - Initial block reward: 1 QUEEN
 - Halving interval: 500,000 blocks
-
+```
 There is no predefined fiat value for QUEEN.
 
 The project does not define an initial USD, EUR, or other fiat exchange rate.
@@ -91,7 +91,7 @@ That's what I'm testing.
 
 
 The project explores a simple blockchain architecture with:
-
+```text
 - Proof of Work (PoW)
 - SHA-256 based hashing
 - UTXO transaction model
@@ -103,7 +103,7 @@ The project explores a simple blockchain architecture with:
 - Chain validation
 
 «Don't Trust. Verify.»
-
+```
 Queen is an experimental project and is not production-ready.
 
 Documentation
@@ -115,9 +115,9 @@ The technical design and architecture of Queen are documented in the project pap
 "Read the Queen Paper"
 
 The paper describes the system architecture, blockchain structure, transaction model, Proof of Work, verification process, and other design concepts behind Queen.
-
+```text
 «Paper: https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk»
-
+```
 ---
 
 Features
@@ -125,7 +125,7 @@ Features
 Blockchain
 
 Each block contains information such as:
-
+```text
 - Block height
 - Timestamp
 - Difficulty
@@ -134,7 +134,7 @@ Each block contains information such as:
 - Previous block hash
 - Nonce
 - Proof-of-Work result
-
+```
 The block hash is independently reproducible from the block data, nonce, and mining algorithm.
 
 Proof of Work
@@ -142,12 +142,12 @@ Proof of Work
 Miners repeatedly test different nonce values until the resulting hash satisfies the network target.
 
 Example:
-
+```text
 Block        : 0
 Difficulty   : 1
 Nonce        : 3232863
 Chain        : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
-
+```
 A valid block can then be verified independently.
 
 Transactions
@@ -155,14 +155,14 @@ Transactions
 Queen uses a UTXO-based transaction model.
 
 Transactions contain:
-
+```text
 - Inputs
 - Outputs
 - Transaction ID (TXID)
 - Version
 - Timestamp
 - Message
-
+```
 Verification
 
 Queen includes a block verifier.
@@ -170,14 +170,14 @@ Queen includes a block verifier.
 The verifier recalculates the block result and compares it with the stored chain value.
 
 Example:
-
+```text
 Stored    : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
 
 Result    : 0000076817c4822c174530ec4a33b3b51a7fa737a01fe4e23f87fcd3b31599d6
 
 Status    : VALID
 Match     : True
-
+```
 The purpose is simple:
 
 Do not trust the stored hash. Calculate it again.
@@ -189,18 +189,18 @@ Requirements
 Queen is written in Python.
 
 Recommended:
-
+```text
 Python 3.10+
-
+```
 The project may also work on other Python versions, but compatibility can vary depending on the platform and dependencies.
 
 You need:
-
+```text
 - Python
 - pip
 - Git
 - A terminal
-
+```
 For CPU mining, performance depends heavily on the device and CPU.
 
 ---
@@ -210,64 +210,64 @@ Running Queen
 Linux
 
 Clone the repository:
-
+```text
 git clone https://github.com/loidprotagonist/Queen.git
 cd Queen
-
+```
 Install dependencies:
-
+```text
 python3 -m pip install -r requirements.txt
-
+```
 Run the node:
-
+```text
 python3 Loid_node.py
-
+```
 In another terminal, run the miner:
-
+```text
 python3 Loid_miner.py
-
+```
 Run the verifier:
-
+```text
 python3 Loid_verify.py
-
+```
 Run the wallet:
-
+```text
 python3 Loid_wallet.py
-
+```
 ---
 
 Android / Termux
 
 Install Python and Git:
-
+```text
 pkg update
 pkg install python git
-
+```
 Clone Queen:
-
+```text
 git clone https://github.com/loidprotagonist/Queen.git
 cd Queen
-
+```
 Install dependencies:
-
+```text
 pip install -r requirements.txt
-
+```
 Run the node:
-
+```text
 python Loid_node.py
-
+```
 Run the miner:
-
+```text
 python Loid_miner.py
-
+```
 Run the verifier:
-
+```text
 python Loid_verify.py
-
+```
 Run the wallet:
-
+```text
 python Loid_wallet.py
-
+```
 CPU mining performance on Android devices will vary significantly between devices.
 
 ---
@@ -277,21 +277,21 @@ Other Platforms
 Queen is Python-based, so it may run on other operating systems that provide a compatible Python environment.
 
 The general procedure is:
-
+```text
 git clone https://github.com/loidprotagonist/Queen.git
 cd Queen
-
+```
 Install dependencies:
-
+```text
 python -m pip install -r requirements.txt
-
+```
 Then run the desired component:
-
+```text
 python Loid_node.py
 python Loid_miner.py
 python Loid_verify.py
 python Loid_wallet.py
-
+```
 The exact command may differ depending on the operating system.
 
 ---
@@ -299,22 +299,22 @@ The exact command may differ depending on the operating system.
 Mining
 
 Start the miner:
-
+```text
 python Loid_miner.py
-
+```
 The miner displays information such as:
-
+```text
 MINING #0
 NONCE 3212000
 HASHRATE 3272 H/s
 HASH ...
-
+```
 When a valid Proof of Work is found:
-
+```text
 ===================================
        BLOCK FOUND
 ===================================
-
+```
 The block is then submitted to the node for validation.
 
 The node may reject a block if its Proof of Work or other consensus rules are invalid.
@@ -324,7 +324,7 @@ The node may reject a block if its Proof of Work or other consensus rules are in
 Project Structure
 
 The project is organized around the following components:
-
+```text
 Loid_core.py
     Core blockchain functions
 
@@ -348,7 +348,7 @@ Loid_verify.py
 
 Loid_ui.py
     Terminal interface
-
+```
 Additional testing and utility scripts are included in the repository.
 
 ---
@@ -362,7 +362,7 @@ It has been developed and tested primarily in a Python environment and on Androi
 It has not been presented as production-grade financial software.
 
 Important areas are still subject to change, including:
-
+```text
 - Consensus rules
 - Networking
 - Wallet implementation
@@ -372,7 +372,7 @@ Important areas are still subject to change, including:
 - Security
 - Performance
 - Database/storage design
-
+```
 Do not use Queen for real funds or security-critical applications.
 
 ---
@@ -386,19 +386,19 @@ Please include as much information as possible so the problem can be reproduced.
 Include:
 
 1. Operating system
-
+```text
 Linux / Android / Termux / Windows / etc.
-
+```
 2. Python version
-
+```text
 python --version
-
+```
 3. Command used
 
 Example:
-
-python mining.py
-
+```text
+python Loid_miner.py
+```
 4. Full error message / traceback
 
 Please copy the complete error instead of only writing:
@@ -406,10 +406,10 @@ Please copy the complete error instead of only writing:
 it doesn't work
 
 For example:
-
+```text
 Traceback (most recent call last):
     ...
-
+```
 5. Hardware information
 
 If the problem is related to mining performance, include the CPU/device model.
