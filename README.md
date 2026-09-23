@@ -115,12 +115,10 @@ The technical design and architecture of Queen are documented in the project pap
 
 The paper describes the system architecture, blockchain structure, transaction model, Proof of Work, verification process, and other design concepts behind Queen.
 
-Whitepaper:
+## Whitepaper:
 https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk
 ---
 
-## Queen Forum History
-```text
 ## Queen Home Forum
 https://bitcointalk.org/index.php?topic=5594369.0
 
@@ -152,13 +150,11 @@ https://bitcointalk.org/index.php?topic=5594450.0
 
 8. Криптовалюта как деньги?
    https://bitcointalk.org/index.php?topic=5594254.0
-```
 
 ## Contact Loid
-```text
+
 1. loidprotagonist@proton.me
 2. xxxloidcypherpunk@protonmail.com
-```
 
 ## Social Media
 ```text
