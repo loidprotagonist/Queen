@@ -2,9 +2,9 @@
   <img src="Logo.png" width="180">
 </p>
 
-# QUEEN
-# $LOID
-# Electronic Cash System
+# COIN QUEEN
+## UNIT $LOID
+### Electronic Cash System
 
 Queen is an experimental peer-to-peer electronic cash system written in Python.
 
@@ -89,7 +89,6 @@ That's what I'm testing.
 
 ---
 
-
 The project explores a simple blockchain architecture with:
 ```text
 - Proof of Work (PoW)
@@ -115,8 +114,61 @@ The technical design and architecture of Queen are documented in the project pap
 "Read the Queen Paper"
 
 The paper describes the system architecture, blockchain structure, transaction model, Proof of Work, verification process, and other design concepts behind Queen.
-```text
+
+Whitepaper:
 https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk
+---
+
+## Queen Forum History
+```text
+## Queen Home Forum
+https://bitcointalk.org/index.php?topic=5594369.0
+
+## Queen Discussion Forum
+https://bitcointalk.org/index.php?topic=5594450.0
+
+## Experiment Discussion History
+
+1. Multiprocessing Mining Accurate Hashrate and Repeated Process Stability
+   https://bitcointalk.org/index.php?topic=5594156.0
+
+2. Fiat Is High, Inequality Is Higher
+   https://bitcointalk.org/index.php?topic=5594629.0
+
+3. Why Is a Beginner's Electronic Cash Experiment Considered Criminal?
+   https://bitcointalk.org/index.php?topic=5594161.0
+
+4. Queen Direct Barter Experiment
+   https://bitcointalk.org/index.php?topic=5594599.0
+
+5. Queen How to Get the First P2P Peers?
+   https://bitcointalk.org/index.php?topic=5594755.0
+
+6. “人人都可以参与”真的意味着人人都能竞争吗？
+   https://bitcointalk.org/index.php?topic=5594246.0
+
+7. Neue Währung auf Flohmärkten?
+   https://bitcointalk.org/index.php?topic=5594253.0
+
+8. Криптовалюта как деньги?
+   https://bitcointalk.org/index.php?topic=5594254.0
+```
+
+## Contact Loid
+```text
+1. loidprotagonist@proton.me
+2. xxxloidcypherpunk@protonmail.com
+```
+
+## Social Media
+```text
+None currently.
+
+Official communication:
+- Bitcointalk
+- GitHub
+- Email
+- List Archive
 ```
 ---
 
