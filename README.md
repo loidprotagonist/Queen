@@ -116,7 +116,7 @@ The technical design and architecture of Queen are documented in the project pap
 
 The paper describes the system architecture, blockchain structure, transaction model, Proof of Work, verification process, and other design concepts behind Queen.
 ```text
-«Paper: https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk»
+https://drive.google.com/file/d/1nfD79S52X1nFtw4q8Y4oMiYYc8eOF912/view?usp=drivesdk
 ```
 ---
 
@@ -429,5 +429,6 @@ A reproducible bug is more useful than a vague complaint.
 ---
 
 License
-
+```text
 See the "LICENSE" file included in this repository.
+```
